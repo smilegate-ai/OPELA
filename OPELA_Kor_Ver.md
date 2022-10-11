@@ -13,7 +13,7 @@
 
 <sup>1</sup>[Human Factors Psychology Lab](https://hfpsych.snu.ac.kr/), Department of Psychology, Seoul National University <br>
 <sup>2</sup>[Human Interface Lab](https://hi.snu.ac.kr/), Department of Electrical and Computer Engineering, Seoul National University <br>
-<sup>3</sup>[Smilegate AI](https://smilegateai.com)
+<sup>3</sup>[Smilegate AI](https://smilegate.ai/)
 
 
 
