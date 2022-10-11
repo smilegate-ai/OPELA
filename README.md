@@ -7,11 +7,18 @@
  This is similar to typical conversation between a chatbot (persona) and a person (user), which assumes a situation of interacting with the chatbot that reacts to the user with empathy and an active attitude. 
  The conversations range from as short as 15 turns to as long as 80 turns on a variety of everyday topics.
 
-# Researchers
-[Yoon Kyung Lee](https://yoonkyunglee.oopy.io)<sup>1</sup>, [Won Ik Cho](https://sites.google.com/site/warnikchow)<sup>2</sup>,Seoyeon Bae<sup>1</sup>, Jihwan Kim<sup>2</sup>, Jisang Park<sup>1</sup>, Nam Soo Kim<sup>2</sup>, Sowon Hahn<sup>1</sup>
+## This data is a joint collaboration project between Smilegate AI and Seoul National University.
 
-<sup>1</sup>[Human Factors Psychology Lab](https://hfpsych.snu.ac.kr/), Seoul National University <br>
-<sup>2</sup>[Human Interface Lab](https://hi.snu.ac.kr/), Seoul National University
+# Researchers
+
+- [Yoon Kyung Lee](https://yoonkyunglee.com)<sup>1</sup>, [Won Ik Cho](https://sites.google.com/site/warnikchow)<sup>2</sup>,Seoyeon Bae<sup>1</sup>, Jihwan Kim<sup>2</sup>, Jisang Park<sup>1</sup>, Nam Soo Kim<sup>2</sup>, Sowon Hahn<sup>1</sup>
+
+- Hyunwoo Choi<sup>3</sup>, Joonsun Hwang<sup>3</sup>, Moosung Kim<sup>3</sup>
+
+<sup>1</sup>[Human Factors Psychology Lab](https://hfpsych.snu.ac.kr/), Department of Psychology, Seoul National University <br>
+<sup>2</sup>[Human Interface Lab](https://hi.snu.ac.kr/), Department of Electrical and Computer Engineering, Seoul National University <br>
+<sup>3</sup>[Smilegate AI](https://smilegateai.com)
+
 
 # Purpose of Data Collection
 - Many conversation data using personas were presented in a variety of languages, the majority of which were English and Chinese. Persona, on the other hand, was primarily determined by a number of circumstances in specific situations. 
@@ -251,26 +258,33 @@ All attributes are written per statement (per line shift to be exact).
 
 - Because the labeling in this data may reflect the subjectivity of the annotator, it is recommended to utilize these findings as a guide.
 
-- Contents promoting or explaining pseudoscience (determining personality with blood type, the Myers-Briggs Type Indicator, and other popular beliefs, etc.) to the partner for entertainment purposes were not excluded because they were deemed to be a natural conversation. However, there is no scientific support for this information, and it is irrelevant to the study's objective and findings.
+- Because our goal was to collect realistic conversation from diverse communities, we didn't remove content advocating or referencing pseudoscience to the conversational partner for enjoyment (e.g., determining personality with blood types, the Myers-Briggs Type Indicator, and other popular non-scientific beliefs, etc.). However, the aforementioned instances lack scientific backing and are unrelated to the study's scientific objectives and findings. Researchers' discretion is advised when utilizing this data for psychology research.
 
 
 
 ### Cite
+```
+@misc{SmilegateAI2022OPELA,
+  title         = {OPELA stands for Open-domain conversations by Personas with Empathy, Long-term memory, and Attractive personality.},
+  author        = {Smilegate AI},
+  year          = {2022},
+  howpublished  = {\url{https://github.com/smilegate-ai/OPELA}},
+}
+```
 ```
 @article{lee2022feels,
   title={"Feels like I've known you forever": empathy and self-awareness in human open-domain dialogs},
   author={Lee, Yoon Kyung and Cho, Won Ik and Bae, Seoyeon and 
   Choi, Hyunwoo and Park, Jisang and Kim, Nam Soo and Hahn, Sowon},
   year={2022},
-  publisher={Cognitive Science Society}
+  publisher={PsyArXiv}
 }
 ```
-
 
 ### Inquiries
 ***
 - E -mail : ai_github@smilegate.com
-- Smilegate AI 
+- 주최 : Smilegate AI 센터
 ***
 
 ![logo_black_gray](https://user-images.githubusercontent.com/95196586/147066863-b9f99434-3ce8-463f-abb4-5e672b3a1fda.png)

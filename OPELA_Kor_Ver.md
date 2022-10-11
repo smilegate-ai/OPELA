@@ -4,11 +4,18 @@
 >이 데이터는 두 역할을 play 하는 대화입니다. 한 사람은 가상의 캐릭터 (또는 "concept")을 가진 페르소나 역할을, 다른 한 사람은 현실에서 마주칠만한 일반적인 사람 역할을 합니다 (이후부터는 편의를 위해 메신저 플랫폼을 이용하는 '사용자'로 호칭합니다). 
 이는 챗봇과 상호작용하는 상황을 가정하고 이후에 학습할 수 있도록 공감하고 재밌게 반응해주는 챗봇(페르소나)과 사람(사용자)의 관계와 비슷합니다. 두 사람의 대화는 다양한 일상적인 주제에 대해 짧게는 15 turn부터 길게는 80 turn까지 있습니다. 
 
-# 참여연구원
-[이윤경](https://yoonkyunglee.oopy.io)<sup>1</sup>, [조원익](https://sites.google.com/site/warnikchow)<sup>2</sup>,배서연<sup>1</sup>, 김지환<sup>2</sup>, 박지상<sup>1</sup>, 김남수<sup>2</sup>, 한소원<sup>1</sup>
+## 본 데이터는 스마일게이트 AI와 서울대학교가 공동 협업으로 진행한 프로젝트입니다.
 
-<sup>1</sup>[Human Factors Psychology Lab](https://hfpsych.snu.ac.kr/), Seoul National University <br>
-<sup>2</sup>[Human Interface Lab](https://hi.snu.ac.kr/), Seoul National University
+# 참여연구원
+
+- [이윤경](https://yoonkyunglee.com)<sup>1</sup>, [조원익](https://sites.google.com/site/warnikchow)<sup>2</sup>,배서연<sup>1</sup>, 김지환<sup>2</sup>, 박지상<sup>1</sup>, 김남수<sup>2</sup>, 한소원<sup>1</sup>, 
+- 최현우<sup>3</sup>, 황준선<sup>3</sup>, 김무성<sup>3</sup>
+
+<sup>1</sup>[Human Factors Psychology Lab](https://hfpsych.snu.ac.kr/), Department of Psychology, Seoul National University <br>
+<sup>2</sup>[Human Interface Lab](https://hi.snu.ac.kr/), Department of Electrical and Computer Engineering, Seoul National University <br>
+<sup>3</sup>[Smilegate AI](https://smilegateai.com)
+
+
 
 ### 데이터 구축 목적
 ***
@@ -225,9 +232,18 @@ labelerX에 관한 성분들은 문장 배열에 대한 array로 제공되며, �
 - 본 데이터에는 사회적으로 이름있는 인물, 브랜드, 혹은 사회적 현상 등에 대한 참가자들의 주관이 반영될 수 있으며, 이는 윤리적으로 문제가 되지 않는 수준이라면 별도로 배제되지 않았습니다.
 - 본 데이터에 포함된 설문조사 결과는 대화 당사자들의 의견으로, 제3자의 시선과 다를 수 있습니다.
 - 본 데이터에 포함된 태깅 결과에는 각 어노테이터의 주관이 반영될 수 있으며, 이에 따라 문장 별 최종 레이블은 객관적으로 정확한 레이블보다 경향을 파악할 수 있는 가이드 레이블에 가깝습니다.
+- 다양한 커뮤니티에서 현실적인 대화를 수집하는 것이 목표였기 때문에 단순재미를 목적으로 유사과학(예: 혈액형 성격, Myers-Briggs Type Indicator 및 기타 유행성 비과학적 신념 등)을 홍보하거나 언급하는 내용은 제거하지 않았습니다. 그러나 앞서 언급한 사례는 과학적 근거가 부족하고 연구의 과학적 목적 및 결과와 관련이 없으니 추후 학술 연구를 위해 이 데이터를 활용하고자 하는 연구자께서는 유의해주시기 바랍니다. 
 
 
 ### 인용
+```
+@misc{SmilegateAI2022OPELA,
+  title         = {OPELA stands for Open-domain conversations by Personas with Empathy, Long-term memory, and Attractive personality.},
+  author        = {Smilegate AI},
+  year          = {2022},
+  howpublished  = {\url{https://github.com/smilegate-ai/OPELA}},
+}
+```
 ```
 @article{lee2022feels,
   title={"Feels like I've known you forever": empathy and self-awareness in human open-domain dialogs},
@@ -237,7 +253,6 @@ labelerX에 관한 성분들은 문장 배열에 대한 array로 제공되며, �
   publisher={PsyArXiv}
 }
 ```
-
 
 ### 문의
 ***
