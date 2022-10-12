@@ -256,7 +256,7 @@ labelerX에 관한 성분들은 문장 배열에 대한 array로 제공되며, �
 
 ### 문의
 ***
-- E -mail : ai_github@smilegate.com
+- E -mail : smilegate_ai@smilegate.com
 - 주최 : Smilegate AI 센터
 ***
 

@@ -283,7 +283,7 @@ All attributes are written per statement (per line shift to be exact).
 
 ### Inquiries
 ***
-- E -mail : ai_github@smilegate.com
+- E -mail : smilegate_ai@smilegate.com
 - 주최 : Smilegate AI 센터
 ***
 
