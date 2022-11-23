@@ -236,10 +236,13 @@ labelerX에 관한 성분들은 문장 배열에 대한 array로 제공되며, �
 
 
 ### 인용
+
+데이터 사용시 레포지토리와 논문 둘 다 인용하세요 
+
 ```
-@misc{SmilegateAI2022OPELA,
-  title         = {OPELA stands for Open-domain conversations by Personas with Empathy, Long-term memory, and Attractive personality.},
-  author        = {Smilegate AI},
+@misc{SmilegateAISNU2022OPELA,
+  title         = {OPELA:Open-domain conversations by Personas with Empathy, Long-term memory, and Attractive personality.},
+  author        = {Smilegate AI \& Seoul National University},
   year          = {2022},
   howpublished  = {\url{https://github.com/smilegate-ai/OPELA}},
 }
