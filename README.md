@@ -263,10 +263,13 @@ All attributes are written per statement (per line shift to be exact).
 
 
 ### Cite
+
+Please cite both the repository and the paper when using the dataset.
+
 ```
-@misc{SmilegateAI2022OPELA,
-  title         = {OPELA stands for Open-domain conversations by Personas with Empathy, Long-term memory, and Attractive personality.},
-  author        = {Smilegate AI},
+@misc{SmilegateAISNU2022OPELA,
+  title         = {OPELA:Open-domain conversations by Personas with Empathy, Long-term memory, and Attractive personality.},
+  author        = {Smilegate AI \& Seoul National University},
   year          = {2022},
   howpublished  = {\url{https://github.com/smilegate-ai/OPELA}},
 }
